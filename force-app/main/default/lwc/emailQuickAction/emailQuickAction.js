@@ -13,7 +13,8 @@ export default class EmailQuickAction extends NavigationMixin(LightningElement) 
                 recordId:this.recordId,
                 defaultFieldValues: encodeDefaultFieldValues({
                     HtmlBody:"Default values from Quick Action.",
-                    Subject:"Hello from Quick Action LWC"
+                    Subject:"Hello from Quick Action LWC",
+                    ToAddress:'siddharthshekhawat2710@gmail.com,umesh.bodacious@gmail.com'
                 })
             }
         };
