@@ -9,6 +9,7 @@ export default class Container extends LightningElement {
             size:'large',
             description:'Accessible description of modal\'s purpose',
             content:'Passes into content api',
+            headerText:'I am a dynamic header'
         });
         console.log(this.result);
     }
