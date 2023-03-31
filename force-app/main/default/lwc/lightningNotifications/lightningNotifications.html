@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Notifications" icon-name="utility:user">
+        <div class="slds-box">
+            <lightning-button label="Alert" onclick={handleAlert} variant="destructive" class="slds-p-around_medium"></lightning-button>
+            <lightning-button label="Confirm" onclick={handleConfirm} variant="success" class="slds-p-around_medium"></lightning-button>
+            <lightning-button label="Prompt" onclick={handlePrompt} variant="brand-outline" class="slds-p-around_medium"></lightning-button>
+            <lightning-button label="HeaderLess Confirm" onclick={handleConfirmHeaderLess} variant="brand" class="slds-p-around_medium"></lightning-button>
+        </div>
+    </lightning-card>
+</template>
